@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cloud-note">
+    <output-path>$PROJECT_DIR$/out/artifacts/cloud_note</output-path>
+    <root id="archive" name="cloud-note.war">
+      <element id="artifact" artifact-name="cloud-note:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+    </root>
+  </artifact>
+</component>

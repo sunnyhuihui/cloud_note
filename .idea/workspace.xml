@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="cloud-note" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71c12e0c-57cd-41c5-87c4-e7c0eb05a20e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/cloud_note/cloud-note.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/filter/WebContextFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/AddNoteBookController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/AddNoteController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/ChangePasswordController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/CollectNoteController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/DeleteCollectionNoteController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/DeleteNoteBookController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/DeleteNoteController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/DeleteNoteForeverControllerr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/LoadBooksController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/LoadCollectionNoteController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/LoadController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/LoadNoteController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/MoveNoteController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/RenameNoteBookController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/RollbackNoteController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/SearchCollectionController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/SearchDeleteController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/SearchShareController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/SearchShareNoteController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/ShareNoteController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/UpdateNoteController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/UserLoginController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/controller/UserRegisterController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/dao/CollectionNoteDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/dao/NoteBookDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/dao/NoteDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/dao/ShareNoteDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/dao/UserDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/entity/CollectionNote.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/entity/Note.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/entity/NoteBook.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/entity/ShareNote.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/entity/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/filter/WebContextFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/service/CollectionNoteService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/service/CollectionNoteServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/service/NoteBookService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/service/NoteBookServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/service/NoteService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/service/NoteServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/service/ShareNoteService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/service/ShareNoteServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/service/UserServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/util/NoteException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/util/NoteResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/cn/tedu/cloud_note/util/NoteUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/aspectjrt-1.8.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/aspectjweaver-1.8.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/commons-dbcp-1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/commons-logging-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/commons-pool-1.5.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/hamcrest-core-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/jackson-annotations-2.8.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/jackson-core-2.8.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/jackson-databind-2.8.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/junit-4.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/mybatis-3.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/mybatis-spring-1.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/mysql-connector-java-5.1.38.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/spring-aop-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/spring-beans-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/spring-context-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/spring-core-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/spring-expression-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/spring-jdbc-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/spring-tx-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/spring-web-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/lib/spring-webmvc-3.2.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/ico/favico-114-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/ico/favico-144-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/ico/favico-57-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/ico/favico-72-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/ico/favico.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/ico/favico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/08f8695d.select2-spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/156cc09f.spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/314be2a9.divider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/424387e9.sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/424387e9.sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/728a75d4.sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/85509794.jquery.minicolors.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/a45183a1.select2x2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/a4d7e44b.switch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/acc49d9a.select2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/ca21017c.sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/ca6a03e3.noise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/d85fba58.sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/07cb4eaa.img8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/08f814dd.img12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/0ab5f292.header-background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/0c31c9dc.profile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/0c31c9dc.uifaces22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/1166769f.img11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/1a6d8f34.img1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/212fa4f2.logo-inverse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/2590d12d.img2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/3498f5b6.uifaces16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/3a93212e.uifaces3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/3e4d8287.img3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/4206586f.stilearn-logo-alt-inverse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/48ae2c25.uifaces1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/48f4bb8e.Stilearn-logo-primary.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/4c7c0245.img4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/4e4046ef.uifaces15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/4e81cd8d.img6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/598c0714.uifaces7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/6139681b.stilearn-logo3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/637ebb33.stilearn-logo-inverse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/690243f1.uifaces6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/6e33211b.stilearn-logo-alt-default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/738072ec.uifaces13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/75ccb40a.img5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/782e8c3f.stilearn-logo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/7b14b475.img7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/8986f28e.stilearn-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/8af46bf8.uifaces21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/96a1517e.img9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/9c06e6a0.uifaces11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/a0c1c960.uifaces9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/a448a7ef.uifaces10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/b0f7e705.uifaces5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/b7f97507.uifaces4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/c0647842.uifaces17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/ce4e1a92.img10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/e05590e7.stilearn-logo4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/e326dfc8.logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/e7dd5f45.uifaces8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/e8253fc8.uifaces18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/e9cc6303.uifaces20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/e9d19848.uifaces19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/f5a2c818.uifaces14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/f61536ae.uifaces2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/f71e3e28.stilearn-logo-default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/dummy/fb3f89d7.uifaces12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/f5c1e285.spritemap@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/emotion/images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/emotion/images/bface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/emotion/images/cface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/emotion/images/fface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/emotion/images/jxface2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/emotion/images/neweditor-tab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/emotion/images/tface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/emotion/images/wface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/emotion/images/yface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/formula/images/formula.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/image/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/image/images/upload1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/image/images/upload2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/video/images/center_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/video/images/left_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/video/images/none_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/video/images/right_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/addimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/alldeletebtnhoverskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/alldeletebtnupskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/deletedisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/deleteenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/imglabel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/listbackground.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/rotateleftdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/rotateleftenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/rotaterightdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/rotaterightenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/zh-cn/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/zh-cn/images/imglabel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/zh-cn/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/zh-cn/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/zh-cn/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/sounds/aurora.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/sounds/bamboo.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/sounds/chord.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/sounds/circles.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/sounds/complete.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/sounds/hello.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/sounds/input.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/sounds/keys.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/sounds/note.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/sounds/popcorn.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/sounds/pulse.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/sounds/synth.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter1516828222374766709.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/cloud_note.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/cloud_note_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/cloud_note_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/xieminghui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Mysql_mysql_connector_java_5_1_38.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RemoteSystemsTempFiles/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-note.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/filter/WebContextFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/Change_password.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/conf/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/conf/mysql_sql.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/conf/spring-applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/conf/spring-sqlMapConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/mapper/CollectionNoteMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/mapper/NoteBookMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/mapper/NoteMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/mapper/ShareNoteMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/classes/mapper/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/activity.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/activity_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/alert/alert_delete_like.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/alert/alert_delete_note.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/alert/alert_delete_notebook.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/alert/alert_delete_rollback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/alert/alert_error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/alert/alert_like.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/alert/alert_move.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/alert/alert_note.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/alert/alert_notebook.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/alert/alert_rename.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/alert/alert_replay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/log_in.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/note.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/basevalue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/book.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/changepassword.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/collection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/cookie_util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/delete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/jquery.nicescroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/js-prototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/note.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/regist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/run_prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/share.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/theme-setup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/emotion/emotion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/emotion/emotion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/formula/formula.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/formula/formula.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/image/image.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/image/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/link/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/map/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/map/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/video/video.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/dialogs/video/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/en/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/lang/zh-cn/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/umeditor.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/scripts/ue/umeditor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/login_ghost.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cloud-note/styles/umeditor.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dao.TestCollectionNoteDao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dao.TestNoteBookDao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dao.TestNoteDao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dao.TestShareNoteDao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.dao.TestUesrDao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.service.TestNoteBookService.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.service.TestNoteService.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.service.TestShareNoteService.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.service.TestUserService.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/test.dao.TestCollectionNoteDao.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/test.dao.TestNoteBookDao.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/test.dao.TestNoteDao.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/test.dao.TestShareNoteDao.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/test.dao.TestUesrDao.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/test.service.TestNoteBookService.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/test.service.TestNoteService.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/test.service.TestShareNoteService.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/test.service.TestUserService.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire/surefire7700348703756111016tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/surefire/surefire_08566277553229028413tmp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/test/dao/TestCollectionNoteDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/test/dao/TestNoteBookDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/test/dao/TestNoteDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/test/dao/TestShareNoteDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/test/dao/TestUesrDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/test/service/TestNoteBookService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/test/service/TestNoteService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/test/service/TestShareNoteService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/test/service/TestUserService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/cn.rekeles/cloud-note/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/cn.rekeles/cloud-note/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/test/dao/TestCollectionNoteDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/test/dao/TestNoteBookDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/test/dao/TestNoteDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/test/dao/TestShareNoteDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/test/dao/TestUesrDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/test/service/TestNoteBookService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/test/service/TestNoteService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/test/service/TestShareNoteService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/test/service/TestUserService.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/AddNoteBookController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/AddNoteBookController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/AddNoteController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/AddNoteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/ChangePasswordController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/ChangePasswordController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/CollectNoteController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/CollectNoteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/DeleteCollectionNoteController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/DeleteCollectionNoteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/DeleteNoteBookController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/DeleteNoteBookController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/DeleteNoteController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/DeleteNoteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/DeleteNoteForeverControllerr.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/DeleteNoteForeverControllerr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/LoadBooksController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/LoadBooksController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/LoadCollectionNoteController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/LoadCollectionNoteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/LoadController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/LoadController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/LoadNoteController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/LoadNoteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/MoveNoteController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/MoveNoteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/RenameNoteBookController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/RenameNoteBookController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/RollbackNoteController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/RollbackNoteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/SearchCollectionController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/SearchCollectionController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/SearchDeleteController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/SearchDeleteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/SearchShareController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/SearchShareController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/SearchShareNoteController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/SearchShareNoteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/ShareNoteController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/ShareNoteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/UpdateNoteController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/UpdateNoteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/UserLoginController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/UserLoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/UserRegisterController.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/controller/UserRegisterController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/dao/CollectionNoteDao.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/dao/CollectionNoteDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/dao/NoteBookDao.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/dao/NoteBookDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/dao/NoteDao.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/dao/NoteDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/dao/ShareNoteDao.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/dao/ShareNoteDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/entity/CollectionNote.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/entity/CollectionNote.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/entity/Note.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/entity/Note.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/entity/NoteBook.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/entity/NoteBook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/entity/ShareNote.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/entity/ShareNote.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/CollectionNoteService.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/CollectionNoteService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/CollectionNoteServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/CollectionNoteServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/NoteBookService.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/NoteBookService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/NoteBookServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/NoteBookServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/NoteService.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/NoteService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/NoteServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/NoteServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/ShareNoteService.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/ShareNoteService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/ShareNoteServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/ShareNoteServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/service/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/util/NoteException.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/util/NoteException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/util/NoteResult.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/util/NoteResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/util/NoteUtil.class" afterPath="$PROJECT_DIR$/target/classes/cn/tedu/cloud_note/util/NoteUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/conf/mysql_sql.properties" afterPath="$PROJECT_DIR$/src/main/resources/conf/mysql_sql.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/conf/mysql_sql.properties" afterPath="$PROJECT_DIR$/target/classes/conf/mysql_sql.properties" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="note.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/note.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/activity_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6480">
+              <caret line="360" column="10" lean-forward="false" selection-start-line="360" selection-start-column="10" selection-end-line="360" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log_in.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/log_in.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Change_password.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/Change_password.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql_sql.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/mysql_sql.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebContextFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/filter/WebContextFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/filter/WebContextFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/mysql_sql.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/edit.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-note Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-note Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Spring</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloud-note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud_note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud_note" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.35653004" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat8.5">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="cloud-note [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="cloud-note [package]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="tomcat8.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.271" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/cloud_note" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="cloud-note:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/cloud_note" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_cloud-note_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55263" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="cloud-note:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat8.5" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.cloud-note [package]" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.cloud-note [install]" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Maven.cloud-note [install]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71c12e0c-57cd-41c5-87c4-e7c0eb05a20e" name="Default" comment="" />
+      <created>1526701237995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526701237995</updated>
+      <workItem from="1526701241329" duration="5874000" />
+      <workItem from="1526733378568" duration="1591000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7465000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16478191" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6698762" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.49199083" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50800914" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/activity_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6480">
+          <caret line="360" column="10" lean-forward="false" selection-start-line="360" selection-start-column="10" selection-end-line="360" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/log_in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Change_password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/mysql_sql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/filter/WebContextFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/tedu/cloud_note/filter/WebContextFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/mysql_sql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/activity_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/log_in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Change_password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6480">
+          <caret line="360" column="10" lean-forward="false" selection-start-line="360" selection-start-column="10" selection-end-line="360" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>cloud-note</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35653004" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (cloud-note)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35653004" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cloud-note</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35653004" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-dbcp:commons-dbcp:1.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35653004" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

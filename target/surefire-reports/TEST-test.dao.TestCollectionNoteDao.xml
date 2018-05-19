@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="test.dao.TestCollectionNoteDao" time="3.136" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="2017.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.162-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/xieminghui/xmh/xmh_github/cloud_note"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/xieminghui/xmh/xmh_github/cloud_note"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/y8/x5xyjf511r112h0l0qnvwzfc0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/xieminghui/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/xieminghui"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="xieminghui"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.2.1 package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="user.language.format" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="java.ext.dirs" value="/Users/xieminghui/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="test.dao.TestCollectionNoteDao" name="testFindByUserId" time="1.076"/>
+  <testcase classname="test.dao.TestCollectionNoteDao" name="testaddNote" time="1.201">
+    <error message="
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cloud_note`.`cn_collection`, CONSTRAINT `cn_collection_ibfk_2` FOREIGN KEY (`cn_collection_share_id`) REFERENCES `cn_share` (`cn_share_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+### The error may involve cn.tedu.cloud_note.dao.CollectionNoteDao.addNote-Inline
+### The error occurred while setting parameters
+### SQL: insert into cn_collection (cn_collection_id,cn_collection_user_id,cn_collection_share_id)   values(?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cloud_note`.`cn_collection`, CONSTRAINT `cn_collection_ibfk_2` FOREIGN KEY (`cn_collection_share_id`) REFERENCES `cn_share` (`cn_share_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+; SQL []; Cannot add or update a child row: a foreign key constraint fails (`cloud_note`.`cn_collection`, CONSTRAINT `cn_collection_ibfk_2` FOREIGN KEY (`cn_collection_share_id`) REFERENCES `cn_share` (`cn_share_id`) ON DELETE CASCADE ON UPDATE CASCADE); nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cloud_note`.`cn_collection`, CONSTRAINT `cn_collection_ibfk_2` FOREIGN KEY (`cn_collection_share_id`) REFERENCES `cn_share` (`cn_share_id`) ON DELETE CASCADE ON UPDATE CASCADE)" type="org.springframework.dao.DataIntegrityViolationException">org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cloud_note`.`cn_collection`, CONSTRAINT `cn_collection_ibfk_2` FOREIGN KEY (`cn_collection_share_id`) REFERENCES `cn_share` (`cn_share_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+### The error may involve cn.tedu.cloud_note.dao.CollectionNoteDao.addNote-Inline
+### The error occurred while setting parameters
+### SQL: insert into cn_collection (cn_collection_id,cn_collection_user_id,cn_collection_share_id)   values(?,?,?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cloud_note`.`cn_collection`, CONSTRAINT `cn_collection_ibfk_2` FOREIGN KEY (`cn_collection_share_id`) REFERENCES `cn_share` (`cn_share_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+; SQL []; Cannot add or update a child row: a foreign key constraint fails (`cloud_note`.`cn_collection`, CONSTRAINT `cn_collection_ibfk_2` FOREIGN KEY (`cn_collection_share_id`) REFERENCES `cn_share` (`cn_share_id`) ON DELETE CASCADE ON UPDATE CASCADE); nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cloud_note`.`cn_collection`, CONSTRAINT `cn_collection_ibfk_2` FOREIGN KEY (`cn_collection_share_id`) REFERENCES `cn_share` (`cn_share_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:249)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy12.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:56)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:53)
+	at com.sun.proxy.$Proxy15.addNote(Unknown Source)
+	at test.dao.TestCollectionNoteDao.testaddNote(TestCollectionNoteDao.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cloud_note`.`cn_collection`, CONSTRAINT `cn_collection_ibfk_2` FOREIGN KEY (`cn_collection_share_id`) REFERENCES `cn_share` (`cn_share_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:932)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 36 more
+</error>
+    <system-err>May 19, 2018 3:43:45 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+信息: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@28d6290: startup date [Sat May 19 15:43:45 CST 2018]; root of context hierarchy
+May 19, 2018 3:43:45 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from class path resource [conf/spring-applicationContext.xml]
+May 19, 2018 3:43:45 PM org.springframework.beans.factory.config.PropertyPlaceholderConfigurer loadProperties
+信息: Loading properties file from class path resource [conf/mysql_sql.properties]
+May 19, 2018 3:43:45 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4ae33a11: defining beans [loadController,searchShareNoteController,searchShareController,loadNoteController,collectNoteController,deleteCollectionNoteController,searchDeleteController,rollbackNoteController,renameNoteBookController,deleteNoteForeverControllerr,loadCollectionNoteController,changePasswordController,shareNoteController,searchCollectionController,userRegisterController,userLoginController,deleteNoteController,loadBooksController,deleteNoteBookController,updateNoteController,addNoteController,moveNoteController,addNoteBookController,noteService,UserService,noteBookService,collectionNoteService,shareNoteService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,propertyConfigurer,dataSource,sf,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,userDao,collectionNoteDao,shareNoteDao,noteDao,noteBookDao]; root of factory hierarchy
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/load.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;cn.tedu.cloud_note.entity.Note&gt; cn.tedu.cloud_note.controller.LoadController.execute(java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/loadshare.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;cn.tedu.cloud_note.entity.ShareNote&gt; cn.tedu.cloud_note.controller.SearchShareNoteController.execute(java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/searchshare.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.util.List&lt;cn.tedu.cloud_note.entity.ShareNote&gt;&gt; cn.tedu.cloud_note.controller.SearchShareController.execute(java.lang.String,int)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/loadnotes.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.util.List&lt;java.util.Map&lt;java.lang.String, java.lang.String&gt;&gt;&gt; cn.tedu.cloud_note.controller.LoadNoteController.execute(java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/collectnote.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.Object&gt; cn.tedu.cloud_note.controller.CollectNoteController.execute(java.lang.String,java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/deletecollection.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.Object&gt; cn.tedu.cloud_note.controller.DeleteCollectionNoteController.execute(java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/searchdelete.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.util.List&lt;java.util.Map&lt;java.lang.String, java.lang.String&gt;&gt;&gt; cn.tedu.cloud_note.controller.SearchDeleteController.execute(java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/rollbacknote.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.Object&gt; cn.tedu.cloud_note.controller.RollbackNoteController.execute(java.lang.String,java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/book/renamebook.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.Object&gt; cn.tedu.cloud_note.controller.RenameNoteBookController.execute(java.lang.String,java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/delete.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.Object&gt; cn.tedu.cloud_note.controller.DeleteNoteForeverControllerr.execute(java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/loadcollection.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;cn.tedu.cloud_note.entity.ShareNote&gt; cn.tedu.cloud_note.controller.LoadCollectionNoteController.execute(java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/user/changepassword.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.Object&gt; cn.tedu.cloud_note.controller.ChangePasswordController.execute(java.lang.String,java.lang.String,java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/sharenote.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.Object&gt; cn.tedu.cloud_note.controller.ShareNoteController.execute(java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/searchcollection.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.util.List&lt;java.util.Map&lt;java.lang.String, java.lang.String&gt;&gt;&gt; cn.tedu.cloud_note.controller.SearchCollectionController.execute(java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/user/add.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.Object&gt; cn.tedu.cloud_note.controller.UserRegisterController.execute(java.lang.String,java.lang.String,java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/user/login.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;cn.tedu.cloud_note.entity.User&gt; cn.tedu.cloud_note.controller.UserLoginController.execute(java.lang.String,java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/deletenote.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.Object&gt; cn.tedu.cloud_note.controller.DeleteNoteController.execute(java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/book/loadbooks.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.util.List&lt;cn.tedu.cloud_note.entity.NoteBook&gt;&gt; cn.tedu.cloud_note.controller.LoadBooksController.execute(java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/book/deletebook.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.Object&gt; cn.tedu.cloud_note.controller.DeleteNoteBookController.execute(java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/update.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.Object&gt; cn.tedu.cloud_note.controller.UpdateNoteController.execute(java.lang.String,java.lang.String,java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/addnote.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.String&gt; cn.tedu.cloud_note.controller.AddNoteController.execute(java.lang.String,java.lang.String,java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/note/move.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;java.lang.Object&gt; cn.tedu.cloud_note.controller.MoveNoteController.execute(java.lang.String,java.lang.String)
+May 19, 2018 3:43:45 PM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/book/addbook.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public cn.tedu.cloud_note.util.NoteResult&lt;cn.tedu.cloud_note.entity.NoteBook&gt; cn.tedu.cloud_note.controller.AddNoteBookController.execute(java.lang.String,java.lang.String)
+Sat May 19 15:43:46 CST 2018 WARN: Establishing SSL connection without server&apos;s identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn&apos;t set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to &apos;false&apos;. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Sat May 19 15:43:46 CST 2018 WARN: Establishing SSL connection without server&apos;s identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn&apos;t set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to &apos;false&apos;. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+</system-err>
+  </testcase>
+  <testcase classname="test.dao.TestCollectionNoteDao" name="testFindByCollectionId" time="0.859"/>
+</testsuite>
